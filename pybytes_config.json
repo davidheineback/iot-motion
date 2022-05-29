@@ -1,0 +1,20 @@
+{
+  "wifi": { "ssid": "YOUR WIFI SSID", "password": "YOUR WIFI PASSWORD" },
+  "wlan_antenna": 0,
+  "dump_ca": false,
+  "server": "mqtt.pybytes.pycom.io",
+  "ssl": false,
+  "lte": {
+    "apn": null,
+    "cid": 1,
+    "reset": false,
+    "carrier": null,
+    "band": null,
+    "type": null
+  },
+  "device_id": "YOUR PYBYTES DEVICE ID",
+  "network_preferences": ["wifi"],
+  "ota_server": { "port": 443, "domain": "software.pycom.io" },
+  "pybytes_autostart": true,
+  "username": "YOUR PYBYTES USERNAME"
+}
